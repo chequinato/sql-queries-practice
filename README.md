@@ -18,6 +18,12 @@ Repositório com conceitos e exemplos práticos de SQL e banco de dados.
 - **exemplo-woocommerce.sql** - Exemplo real com múltiplos JOINs
 - **dados-exemplo.sql** - Dados de exemplo para testes
 
+### 🎓 faculdade/ (aulas de Banco de Dados - SQL Server / T-SQL)
+
+- **faculdade/aula-7a-projetando-bd.sql** - Modelo conceitual/lógico e divisão do SQL: DDL, DML, DQL, DCL
+- **faculdade/aula-7b-comandos-dml.sql** - INSERT (linha a linha e em lote), DELETE, UPDATE (por faixas), TRUNCATE
+- **faculdade/aula-7b-exercicio-hr.sql** - Exercício: schema HR da Oracle recriado no SQL Server com todos os dados
+
 ## 🚀 Como Usar
 
 1. Configure sua base de dados:
@@ -108,6 +114,16 @@ USE base_de_dados;
 - Views (visões)
 - Transactions (COMMIT, ROLLBACK)
 - DDL (CREATE TABLE, ALTER TABLE, DROP TABLE)
+
+### Faculdade (SQL Server)
+- CREATE DATABASE com arquivos .MDF/.LDF e CREATE SCHEMA
+- IDENTITY, DEFAULT, CHECK, chave primária composta
+- INSERT em lote e INSERT ... SELECT
+- DELETE com FK (erro de integridade) e BEGIN TRAN / ROLLBACK
+- UPDATE por faixas de valores (maior faixa primeiro)
+- TRUNCATE TABLE vs DELETE
+- GRANT / REVOKE (DCL)
+- Schema HR: FK circular resolvida com ALTER TABLE no final
 
 ## 💡 Dicas
 
