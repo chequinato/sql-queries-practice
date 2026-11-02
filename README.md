@@ -24,6 +24,21 @@ Repositório com conceitos e exemplos práticos de SQL e banco de dados.
 - **faculdade/aula-7b-comandos-dml.sql** - INSERT (linha a linha e em lote), DELETE, UPDATE (por faixas), TRUNCATE
 - **faculdade/aula-7b-exercicio-hr.sql** - Exercício: schema HR da Oracle recriado no SQL Server com todos os dados
 
+#### 📝 faculdade/p2/ (estudo para a P2, aulas 07 a 15)
+
+Cada arquivo tem resumo curto, exemplos comentados e exercícios com respostas no fim. Comece pelo `p2-00` e veja o [README da pasta](faculdade/p2/README.md).
+
+- **faculdade/p2/p2-00-base-livraria.sql** - Cria o banco de treino (livraria) usado pelos outros arquivos
+- **faculdade/p2/p2-01-ddl-create-alter-drop.sql** - Divisão do SQL, CREATE / ALTER / DROP TABLE, PK, FK, CHECK, DEFAULT, IDENTITY
+- **faculdade/p2/p2-02-dml-insert-update-delete.sql** - INSERT, UPDATE, DELETE, TRUNCATE, BEGIN TRAN / ROLLBACK
+- **faculdade/p2/p2-03-select-basico.sql** - WHERE, BETWEEN, LIKE, IN, IS NULL, ORDER BY, DISTINCT, TOP
+- **faculdade/p2/p2-04-juncoes-join.sql** - Junção na sintaxe antiga e nova, INNER / LEFT / RIGHT / CROSS JOIN, autojunção
+- **faculdade/p2/p2-05-agrupamento-group-by.sql** - COUNT, SUM, AVG, GROUP BY, HAVING, ISNULL, ROLLUP, CASE
+- **faculdade/p2/p2-06-subselect-e-ranking.sql** - Subselect, IN, EXISTS, ANY / ALL, RANK, DENSE_RANK, ROW_NUMBER
+- **faculdade/p2/p2-07-views.sql** - CREATE / ALTER / DROP VIEW, tipos de view
+- **faculdade/p2/p2-08-procedures-e-tsql.sql** - Stored procedures com parâmetros, EXEC, função, CASE
+- **faculdade/p2/p2-09-simulado-p2.sql** - Simulado com tudo misturado
+
 ## 🚀 Como Usar
 
 1. Configure sua base de dados:
